@@ -196,15 +196,15 @@ const CalendarView = () => {
               <div className="flex gap-2">
                 <button
                   onClick={() => navigateMonth(-1)}
-                  className="p-2 hover:bg-gray-100 rounded-lg transition-colors"
+                  className="p-2 bg-red-50 hover:bg-gray-100 rounded-lg transition-colors"
                 >
-                  <ChevronLeft className="w-5 h-5" />
+                  <ChevronLeft className="w-5 h-5 bg-yellow-50" />
                 </button>
                 <button
                   onClick={() => navigateMonth(1)}
-                  className="p-2 hover:bg-gray-100 rounded-lg transition-colors"
+                  className="p-2  hover:bg-gray-100 hover rounded-lg transition-colors"
                 >
-                  <ChevronRight className="w-5 h-5" />
+                  <ChevronRight className="w-5 h-5 bg-yellow-50" />
                 </button>
               </div>
             </div>
@@ -381,9 +381,9 @@ const CalendarView = () => {
               <h3 className="text-xl font-semibold text-gray-900">New Appointment</h3>
               <button
                 onClick={() => setShowNewAppointmentForm(false)}
-                className="p-2 hover:bg-gray-100 rounded-lg transition-colors"
+                className="p-2  hover:bg-gray-100 rounded-lg transition-colors"
               >
-                <X className="w-5 h-5" />
+                <X className="w-5 h-5 bg-yellow-50" />
               </button>
             </div>
 

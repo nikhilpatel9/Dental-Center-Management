@@ -14,10 +14,12 @@ function App() {
   return (
     <AppProvider>
       <Router>
-        <div className="min-h-screen bg-gray-50">
+        <div className="min-h-screen bg-gray-50 w-screen">
           <Routes>
             <Route path="/login" element={<Login />} />
+
             <Route path="/" element={<Navigate to="/dashboard" replace />} />
+
             <Route
               path="/dashboard"
               element={
@@ -28,6 +30,7 @@ function App() {
                 </ProtectedRoute>
               }
             />
+
             <Route
               path="/patients"
               element={
@@ -38,6 +41,7 @@ function App() {
                 </ProtectedRoute>
               }
             />
+
             <Route
               path="/appointments"
               element={
@@ -48,6 +52,7 @@ function App() {
                 </ProtectedRoute>
               }
             />
+
             <Route
               path="/calendar"
               element={
@@ -58,6 +63,7 @@ function App() {
                 </ProtectedRoute>
               }
             />
+
             <Route
               path="/patient-view"
               element={
@@ -68,6 +74,8 @@ function App() {
                 </ProtectedRoute>
               }
             />
+
+            <Route path="*" element={<Navigate to="/dashboard" replace />} />
           </Routes>
         </div>
       </Router>

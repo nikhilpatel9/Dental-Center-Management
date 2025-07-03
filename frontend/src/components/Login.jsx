@@ -135,9 +135,13 @@ const Login = () => {
         
         <div className="mt-6 text-center">
           <p className="text-sm text-gray-600">
-            Demo credentials: admin@dental.com / password123
+            Admin credentials: admin@dental.com / admin123
+          </p>
+          <p className="text-sm text-gray-600">
+            Patient credentials: john@email.com / patient123
           </p>
         </div>
+        
       </div>
     </div>
   );
