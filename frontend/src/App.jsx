@@ -9,7 +9,7 @@ import AppointmentManagement from './components/AppointmentManagement';
 import CalendarView from './components/CalendarView';
 import PatientView from './components/PatientView';
 import ProtectedRoute from './components/ProtectedRoute';
-
+import './index.css'; 
 function App() {
   return (
     <AppProvider>
