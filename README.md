@@ -65,12 +65,11 @@
 ```
 📦 dental-clinic-management
 ├── 📁 src/
-│   ├── 📁 components/
-│   │   ├── 🧩 Layout.jsx              # Main application layout with sidebar
-│   │   └── 🔒 ProtectedRoute.jsx      # Authentication wrapper
 │   ├── 📁 context/
-│   │   └── 🌐 AppContext.jsx          # Global state management
-│   ├── 📁 pages/
+│   │   ├── 🌐 AppContext.jsx          # Global state management
+│   ├── 📁 components/
+│   │   └── 🧩 Layout.jsx              # Main application layout with sidebar
+│   │   └── 🔒 ProtectedRoute.jsx      # Authentication wrapper 
 │   │   ├── 📅 AppointmentManagement.jsx
 │   │   ├── 📆 CalendarView.jsx
 │   │   ├── 📊 Dashboard.jsx
@@ -194,48 +193,3 @@ Try the application with these credentials:
 
 We welcome contributions from the community! Here's how you can help:
 
-### 📋 **Getting Started**
-1. 🍴 Fork the repository
-2. 🌿 Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. 💻 Make your changes
-4. ✅ Run tests (`npm test`)
-5. 📝 Commit your changes (`git commit -m 'Add some amazing feature'`)
-6. 🚀 Push to the branch (`git push origin feature/amazing-feature`)
-7. 🔄 Open a Pull Request
-
-### 🎯 **Contribution Guidelines**
-- Follow the existing code style
-- Write clear, concise commit messages
-- Add tests for new features
-- Update documentation as needed
-- Ensure all tests pass before submitting
-
-## 📄 License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
-## 📞 Contact & Support
-
-<div align="center">
-  
-### 💬 **Get in Touch**
-  
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@example.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/your-github-username)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-linkedin)
-
-</div>
-
----
-
-<div align="center">
-  
-### 🙏 **Acknowledgments**
-
-Thanks to all contributors who helped build this project • Inspired by modern dental practice management needs • Built with ❤️ using React and modern web technologies
-
-<br>
-
-**⭐ Star this repository if it helped you!**
-
-</div>
